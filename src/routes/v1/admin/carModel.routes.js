@@ -1,5 +1,5 @@
 const express = require("express");
-const CarModelController = require("../../../controller/admin/carmodel.controller");
+const CarModelController = require("../../../controller/admin/carModel.controller");
 const { uploadFile } = require("../../../services/multer");
 const router = express.Router();
 

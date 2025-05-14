@@ -1,5 +1,5 @@
 const deleteFile = require("../../common/deleteFile");
-const CarModel = require("../../model/carmodel.model");
+const CarModel = require("../../model/carModel.model");
 
 const listModel = async (req, res) => {
   try {
